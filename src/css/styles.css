@@ -1,0 +1,91 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container {
+    box-shadow: 2px 1px 7px rgba(0, 0, 0, 0.08), 0px 2px 1px -1px rgba(0, 0, 0, 0.04), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    width: 1400px;
+    height: 164px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    padding-bottom: 24px;
+    border-radius: 8px;
+}
+
+.minContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 16px;
+    height: 116px;
+    width: 1070px;
+   
+   
+}
+
+.timeFlex
+{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 16px;
+    width: 138px;
+    height: 116px;
+}
+
+.timeFlex img
+{
+    align-self: flex-end;
+    
+}
+
+.asterisk{
+    align-self: center;
+    height: 15px;
+    width: 16px;
+    margin-right: 32px;
+}
+
+.reLink
+{
+    text-decoration: none;
+}
+
+.imageCont img
+{
+
+    border-radius: 50%;
+  
+}
+
+.midCont
+{
+    flex-direction: column;
+    width: 959px;
+    height: 100%;
+    font-size: 16px;
+    margin-left:26px;
+    line-height: 25px;
+}
+
+.midCont h2
+{
+    font-size: 20px;
+    padding-bottom: 8px;
+}
